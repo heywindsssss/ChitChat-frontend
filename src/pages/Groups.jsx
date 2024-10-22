@@ -388,6 +388,7 @@ const GroupsList = ({ w = "100%", myGroups = [], chatId }) => (
       backgroundImage: bgGradient,
       height: "100vh",
       overflow: "auto",
+      color: "#ffffff"
     }}
   >
     {myGroups.length > 0 ? (

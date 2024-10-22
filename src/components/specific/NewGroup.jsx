@@ -98,7 +98,7 @@ const NewGroup = () => {
 
         <Stack direction={"row"} justifyContent={"space-evenly"}>
           <Button
-            variant="text"
+            variant="contained"
             color="error"
             size="large"
             onClick={closeHandler}
@@ -107,6 +107,7 @@ const NewGroup = () => {
           </Button>
           <Button
             variant="contained"
+            color="inherit"
             size="large"
             onClick={submitHandler}
             disabled={isLoadingNewGroup}
